@@ -1,0 +1,20 @@
+{
+    "name": "ahmadsherif/laravel-psysh",
+    "description": "An alternative shell for Laravel using PsySH",
+    "require": {
+        "laravel/framework": "4.0.x",
+        "psy/psysh": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Sherif",
+            "email": "me@ahmadsherif.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "LaravelPsySH\\": "src/"
+        }
+    },
+}
